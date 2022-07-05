@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  font-family: 'Noto Sans Bengali', sans-serif;
+  font-weight: 300;
+  font-size: 135%;
+  margin: 0 20rem;
+}
+
+button {
+  padding: 1rem;
+  min-width: 8rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background-color: lawngreen;
+  border-radius: .4rem;
+}
+
+header {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%), url("cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 12rem 4rem;
+}
+
+h1 {
+  width: 80%;
+  font-weight: 500;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  width: 50%;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  width: 80%;
+  margin: 2rem 0 1rem 0;
+}
+
+section {
+  padding: 4rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.small-width {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 3em;
+}
+
+#donation-options,
+#support-options {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.donation-option {
+  background-color: rgb(211, 250, 133);
+  width: 18%;
+  font-size: 2rem;
+  height: 8rem;
+  border-radius: .8rem;
+  border: .2rem solid lawngreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#donation-selected {
+  background-color: lawngreen;
+  border-color: limegreen;
+}
+
+#other-amount {
+  display: block;
+  width: 50%;
+  height: 2em;
+  margin: 2rem auto;
+  padding: .4rem .2rem;
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 1px dotted darkgrey;
+}
+
+.help-card {
+  text-align: left;
+  width: 32%;
+  border-radius: .8rem;
+  padding: 4rem 2rem;
+}
